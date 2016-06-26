@@ -24,13 +24,15 @@
     .btn-primary{
       background-color:#536DFE;
       margin-top:5px;
+      box-shadow: 0 10px 15px -8px #777;
+      transition:box-shadow 0.125s ease;
 
     }
 
     .btn-primary:hover{
-      background-color: transparent;
       border-color:#536DFE;
-      color: #536DFE;
+      background-color:#536DFE;
+      box-shadow: 0 10px 10px -5px #333
     }
     
     .well {
