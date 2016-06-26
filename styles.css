@@ -1,7 +1,7 @@
 /*
     $darkPrimary: #E64A19;
     $primary: #FF5722;
-    $lightPrimary: ##FFCCBC;
+    $lightPrimary: #FFCCBC;
 
     $white: #FFFFFF;
 
@@ -23,6 +23,8 @@
 
     .btn-primary{
       background-color:#536DFE;
+      margin-top:5px;
+
     }
 
     .btn-primary:hover{
@@ -31,11 +33,18 @@
       color: #536DFE;
     }
     
+    .well {
+      border:0 none;
+      border-radius: 0;
+      box-shadow: none;
+    }
+
     .header{
       background:#FF5722;
       color: #FFFFFF;
       text-align: center;
       border-bottom:5px solid #E64A19;
+      margin-bottom:5px;
     }
 
     .flexbox{
@@ -50,6 +59,10 @@
       padding: 10px;
       font-size:18px;
       border-bottom:1px solid #B6B6B6;
+      margin-bottom:5px;
+    }
+    .todo:last-child{
+      border-bottom:0 none;
     }
     .todo:hover{
       background:#FFCCBC;
